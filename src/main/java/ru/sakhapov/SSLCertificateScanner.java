@@ -91,7 +91,7 @@ public class SSLCertificateScanner {
                                 .toArray(String[]::new);
 
                         for (String domainName : domainNames) {
-                            System.out.println("Название домена: " + domainName);
+                            System.out.println(domainName);
                         }
                     }
                 }
